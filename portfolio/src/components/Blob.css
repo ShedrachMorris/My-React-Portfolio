@@ -1,0 +1,29 @@
+.blob-container {
+    @apply  justify-center inline-flex flex-wrap mt-5;
+  }
+  
+  .blob {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/profile.jpg);
+    border-radius: 50%;
+    position: relative;
+    animation: blob 5s infinite;
+  }
+  
+  @keyframes blob {
+    0%, 100% {
+      border-radius: 70% 30% 40% 70% / 30% 60% 30% 50%;
+    }
+    25% {
+      border-radius: 30% 70% 30% 40% / 50% 30% 70% 40%;
+    }
+    50% {
+      border-radius: 40% 60% 30% 70% / 50% 30% 70% 30%;
+    }
+    75% {
+      border-radius: 40% 30% 50% 30% / 30% 50% 40% 30%;
+    }
+  }
