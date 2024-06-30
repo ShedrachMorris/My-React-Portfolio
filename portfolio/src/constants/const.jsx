@@ -1,4 +1,4 @@
-
+import virtualr from "../components/images/virtualr.png";
 
 export const navItem = [
   { label: "Home" },
@@ -32,8 +32,6 @@ export const info = [
 ];
 
 export const project = [
-  {label: "E-Commerce", about: "dyftgduhidiwnuhuyged", icon: "", image: "",},
-  {label: "", about: "", icon: "", image: "",},
-  {label: "", about: "", icon: "", image: "",},
-  {label: "", about: "", icon: "", image: "",},
+  {about: "Virtual code environment built with React.js and Tailwind", image: virtualr,},
+  
 ];
