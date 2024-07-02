@@ -22,7 +22,7 @@ const About = () => {
               className="lg:flex rounded-md size-auto"
             />
           </div>
-          <div className="flex-1 ml-10">
+          <div className="flex-1 ml-10 sm:mt-5 sm:ml-5 md:mt-5">
             {aboutMe.map((about, index) => (
               <div key={index}>{about.label}</div>
             ))}

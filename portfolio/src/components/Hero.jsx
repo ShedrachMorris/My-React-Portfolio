@@ -8,6 +8,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { RiTwitterXFill } from "react-icons/ri";
 import { TfiEmail } from "react-icons/tfi";
 import "./Blob.css";
+import cv from "../assets/ShedrachMorrisUzoigweResume.pdf";
 
 const Hero = () => {
   return (
@@ -64,12 +65,14 @@ const Hero = () => {
             </div>
           </div>
           <div className="ml-12 mt-5 pl-10">
-            <button
-              alt=""
-              className="px-7 py-2 border mt-10 rounded-md bg-gradient-to-r from-blue-400 to-yellow-200 hover:bg-gradient-to-tr from-red-500 to-blue-500"
-            >
-             Download CV
-            </button>
+            <a href={cv} download={cv}>
+              <button
+                alt=""
+                className="px-7 py-2 border mt-10 rounded-md bg-gradient-to-r from-blue-400 to-yellow-200 hover:bg-gradient-to-tr from-red-500 to-blue-500"
+              >
+                Download CV
+              </button>
+            </a>
           </div>
         </div>
         <div className="sm:">
