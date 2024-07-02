@@ -8,7 +8,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { RiTwitterXFill } from "react-icons/ri";
 import { TfiEmail } from "react-icons/tfi";
 import "./Blob.css";
-import cv from "../assets/ShedrachMorrisUzoigweResume.pdf";
+import cv from "../assets/ShedrachMorrisCV.pdf";
 
 const Hero = () => {
   return (
