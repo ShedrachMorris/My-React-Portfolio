@@ -50,17 +50,21 @@ const Hero = () => {
                 {" "}
                 <FaGithub className="text-4xl ml-5 text-orange-900" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/shedrach-morris-uzoigwe-466b15252/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {" "}
                 <FaLinkedin className="text-4xl ml-5 text-red-500" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://x.com/ShedrachMorris8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {" "}
                 <RiTwitterXFill className="text-4xl ml-5 text-cyan-400" />
-              </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                {" "}
-                <TfiEmail className="text-4xl ml-5 text-blue-500" />
               </a>
             </div>
           </div>

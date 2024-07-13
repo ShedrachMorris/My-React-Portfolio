@@ -37,7 +37,7 @@ const Contact = () => {
             <TfiEmail className="text-4xl ml-5 text-blue-500" />
           </a>
         </div>
-        <div>
+        <div className="sm:flex items-center justify-center">
           <ContactForm />
         </div>
       </div>
