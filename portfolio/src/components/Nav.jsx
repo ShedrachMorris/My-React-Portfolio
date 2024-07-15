@@ -19,7 +19,7 @@ const Nav = () => {
               {item.label}
             </div>
           ))}
-          <div className="lg:hidden md:flex justify-end absolute top-5 right-0 h-16 w-16 ">
+          <div className="lg:hidden md:flex justify-end absolute top-5 right-10 h-16 w-16 ">
             <button onClick={toggle} className="md: my-2 px-3 py-2 ">
               {navOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
             </button>

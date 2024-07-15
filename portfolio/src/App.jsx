@@ -5,17 +5,15 @@ import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Foot from "./components/Foot";
 
-
-
 const App = () => {
   return (
     <>
       <Nav />
       <Hero />
-      <About/>
-      <Project/>
-      <Contact/>
-      <Foot/>
+      <About />
+      <Project />
+      <Contact />
+      <Foot />
     </>
   );
 };

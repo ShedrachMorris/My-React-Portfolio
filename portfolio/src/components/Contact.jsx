@@ -5,8 +5,9 @@ import ContactForm from "./Form";
 
 const Contact = () => {
   return (
-    <>
-      <div className="mt-10 bg-slate-300">
+   
+      <div className="mt-10 min-[320px]:max-w-screen-sm min-[768px]:max-w-screen-md
+       min-[1024px]:max-w-screen-lg min-[1280px]:max-w-screen-xl">
         <div className="App flex flex-col items-center gap-8 p-8">
           <div className="text-lg font-bold border-b-2 border-black pb-2">
             <h1 className="flex justify-center items-center text-4xl">
@@ -24,11 +25,11 @@ const Contact = () => {
             {" "}
             <FaGithub className="text-4xl ml-5 text-orange-900" />
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/shedrach-morris-uzoigwe-466b15252/" target="_blank" rel="noopener noreferrer">
             {" "}
             <FaLinkedin className="text-4xl ml-5 text-red-500" />
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/ShedrachMorris8" target="_blank" rel="noopener noreferrer">
             {" "}
             <RiTwitterXFill className="text-4xl ml-5 text-cyan-400" />
           </a>
@@ -41,7 +42,7 @@ const Contact = () => {
           <ContactForm />
         </div>
       </div>
-    </>
+  
   );
 };
 

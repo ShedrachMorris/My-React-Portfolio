@@ -4,7 +4,8 @@ import { FaGithub, FaGlobe } from "react-icons/fa6";
 const Project = () => {
   return (
     <>
-      <div>
+      <div className="min-[320px]:max-w-screen-sm min-[768px]:max-w-screen-md 
+      min-[1024px]:max-w-screen-lg min-[1280px]:max-w-screen-xl">
         <div className="flex flex-col items-center gap-8 p-8">
           <div className="text-lg font-bold border-b-2 border-black pb-2">
             <h1 className="flex justify-center items-center text-4xl">

@@ -13,9 +13,10 @@ import cv from "../assets/ShedrachMorrisCV.pdf";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-wrap items-center pt-11 mt-12 sm:text-lg text-gray-600">
-        <div className="flex-1 flex-col pt-11 mt-12 ml-3">
-          <div>
+      <div className="flex flex-wrap items-center pt-11 mt-12 min-[320px]:text-sm min-[320px]:max-w-screen-sm
+       min-[768px]:max-w-screen-md min-[1024px]:max-w-screen-lg min-[1280px]:max-w-screen-xl">
+        <div className="flex-1 flex-col pt-11 mt-12 flex-wrap min-[320px]:flex">
+          <div className="">
             <h1 className="inline-flex item-center flex-wrap text-lg">
               I am Shedrach Morris Uzoigwe A React Developer,
               <div className="ml-2 inline-flex">
@@ -68,7 +69,8 @@ const Hero = () => {
             <a href={cv} download={cv}>
               <button
                 alt=""
-                className="px-7 py-2 border mt-10 rounded-md bg-gradient-to-r from-blue-400 to-yellow-200 hover:bg-gradient-to-tr from-red-500 to-blue-500"
+                className="px-7 py-2 border mt-10 rounded-md bg-gradient-to-r
+                 from-blue-400 to-yellow-200 hover:bg-gradient-to-tr from-red-500 to-blue-500"
               >
                 Download CV
               </button>
