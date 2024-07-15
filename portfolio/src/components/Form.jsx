@@ -66,7 +66,7 @@ export default function ContactForm() {
               cols="15"
               rows="8"
               placeholder="Message Here..."
-              className="flex m-5 size-5/6 rounded-md bg-slate-300 min-[320px]:w-full"
+              className="flex m-5 size-5/6 rounded-md bg-slate-300 min-[320px]:w-full min-[320px]:ml-11"
             ></textarea>
 
             <button

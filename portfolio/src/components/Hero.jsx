@@ -6,7 +6,6 @@ import { RiTailwindCssLine } from "react-icons/ri";
 import { IoLogoReact } from "react-icons/io5";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { RiTwitterXFill } from "react-icons/ri";
-import { TfiEmail } from "react-icons/tfi";
 import "./Blob.css";
 import cv from "../assets/ShedrachMorrisCV.pdf";
 
@@ -16,8 +15,9 @@ const Hero = () => {
       <div className="flex flex-wrap items-center pt-11 mt-12 min-[320px]:text-sm min-[320px]:max-w-screen-sm
        min-[768px]:max-w-screen-md min-[1024px]:max-w-screen-lg min-[1280px]:max-w-screen-xl">
         <div className="flex-1 flex-col pt-11 mt-12 flex-wrap min-[320px]:flex">
-          <div className="">
-            <h1 className="inline-flex item-center flex-wrap text-lg">
+          <div className="min-[320px]: ">
+            <h1 className="inline-flex item-center flex-wrap text-lg 
+            min-[320px]:text-sm">
               I am Shedrach Morris Uzoigwe A React Developer,
               <div className="ml-2 inline-flex">
                 Hi <MdOutlineWavingHand className="text-yellow-500 text-2xl" />

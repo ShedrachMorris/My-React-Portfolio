@@ -27,7 +27,8 @@ const About = () => {
             {aboutMe.map((about, index) => (
               <div key={index}>{about.label}</div>
             ))}
-            <div className="grid min-[1024px]:grid-cols-2 min-[1024px]:mt-3 min-[320px]:grid-cols-1">
+            <div className="grid min-[1024px]:grid-cols-2 min-[1024px]:mt-3 
+            min-[320px]:grid-cols-1 min-[640px]:grid-cols-2">
               {info.map((info, index) => (
                 <div key={index} className="m-3 min-[320px]:m-0 min-[1024px]:m-3">
                   <div className="text-2xl">{info.label}</div>
