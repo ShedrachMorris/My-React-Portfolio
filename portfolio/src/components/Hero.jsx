@@ -12,7 +12,7 @@ import cv from "../assets/ShedrachMorrisCV.pdf";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-wrap items-center pt-11 mt-12 min-[320px]:text-sm min-[320px]:max-w-screen-sm
+      <div className="flex flex-wrap items-center pt-11 mr-5 mt-9 min-[320px]:mt-5 min-[320px]:text-sm min-[320px]:max-w-screen-sm
        min-[768px]:max-w-screen-md min-[1024px]:max-w-screen-lg min-[1280px]:max-w-screen-xl">
         <div className="flex-1 flex-col pt-11 mt-12 flex-wrap min-[320px]:flex">
           <div className="min-[320px]: ">
